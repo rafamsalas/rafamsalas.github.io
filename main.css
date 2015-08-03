@@ -1,13 +1,16 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:100,400,700);
+
 html * {
   /*background: transparent;*/
-  font-family: Helvetica, sans-serif;
+  font-family: 'Lato', Helvetica, sans-serif;
+  align-self: center;
 }
 
 body {
   /*background: #444444;*/
   background-image: url('http://wallpoper.com/images/00/40/76/10/outer-space_00407610.jpg');
-	background-size: cover;
-  width: 150%;
+	background-size: cover
+  width: 100%;
 	height: 200vh;
   background-attachment: fixed;
   text-align: center;
@@ -28,16 +31,22 @@ header h1 {
   font-family:Helvetica, sans-serif;
   text-align: center;
   /*position: fixed;*/
-	padding: 20px;
+	padding: 0;
 	font-size: 5em;
-	margin: 0 auto 0 auto;
+	margin: 0 auto 5% auto;
 	mix-blend-mode: screen;
 	top: 60px;
 }
 
+nav {
+  position: fixed;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto 0 auto;
+}
+
 nav ul li {
   display: inline;
-  margin: 0 auto 0 auto;
   padding: 4px 30px 0 30px;
   border: 1px solid #ff1122;
   border-radius: 4px;
@@ -56,11 +65,16 @@ main {
 }
 
 main h2, p {
-  width: 650px;
-  margin: 10px auto 40px auto;
+  width: 60%;
+  margin: 1% auto 3% auto;
   font-family:Helvetica, sans-serif;
+  align-self: center;
   color: white;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+main h2 {
+  margin: 0 auto
 }
 
 footer ul {
@@ -73,6 +87,7 @@ footer ul {
 
 footer ul li{
   display: inline;
+  width: 100%;
   margin: 0 auto 0 auto;
   padding: 5px 25px 0 25px;
   border: 3px solid #ff1122;
