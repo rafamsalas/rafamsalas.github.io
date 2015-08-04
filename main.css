@@ -17,7 +17,7 @@ body {
   background-image: url('http://www.facets.la/wallpaper/W_2013_160.jpg');*/
 	background-size: cover;
   width: 100%;
-	height: 200vh;
+	height: 120vh;
   background-attachment: fixed;
   text-align: center;
 }
@@ -78,11 +78,16 @@ main {
 
 main h2, p {
   width: 100%;
-  margin: 1% auto 3% auto;
+  margin: 1% auto 1% auto;
   font-family:Helvetica, sans-serif;
   align-self: center;
   color: white;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.copyright {
+  margin-top: 4%;
+  font-size: 40%;
 }
 
 main h2 {
