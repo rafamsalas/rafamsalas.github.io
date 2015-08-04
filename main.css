@@ -115,9 +115,9 @@ footer ul {
   position: fixed;
   align-items: center;
   width: 100%;
-  padding: .5% 0 .5% 0;
+  padding: .5% 0 .625% 0;
   right: 0;
-  bottom: -2.35%;
+  bottom: -2.45%;
 }
 
 
