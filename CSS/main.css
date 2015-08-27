@@ -1,0 +1,141 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:100,400,700);
+
+html * {
+  /*background: transparent;*/
+  font-family: 'Lato', Helvetica, sans-serif;
+  align-self: center;
+}
+
+body {
+  /*background: #000;
+  background-image: url('http://wallpoper.com/images/00/40/76/10/outer-space_00407610.jpg');*/
+  background-color: #363442;
+  background-image: url('http://www.bluthemes.com/assets/img/blog/12/rocket-night-v2.jpg');
+  /*background-color: black;
+  background-image: url(http://9to5animations.com/wp-content/uploads/2015/04/Colorful-Animated-Wallpapers-colors-hd.gif);*/
+  /*background-color: #000;
+  background-image: url('http://www.facets.la/wallpaper/W_2013_160.jpg');*/
+	background-size: cover;
+  width: 100%;
+	height: 120vh;
+  background-attachment: fixed;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #dad;
+}
+
+a:hover {
+  text-decoration:underline;
+  color: #aaa;
+}
+
+
+header h1 {
+  background-color: #f11;
+  /*font-family:Helvetica, sans-serif;*/
+  text-align: center;
+	font-size: 5em;
+	margin: 5% -1% 5% -1%;
+	mix-blend-mode: screen;
+  bottom: 10%;
+  right: 0;
+  top: 0;
+
+}
+
+nav {
+  background-color: #444;
+  position: fixed;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto 0 auto;
+  right: 0;
+  top: 0;
+}
+
+nav ul li {
+  display: inline;
+  padding: .25% 1.5% .25% 1.5%;
+  border: 1px solid #ff1122;
+  border-radius: 4px;
+  /*font-family: Helvetica, sans-serif;*/
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  background-color: rgba(255, 0, 0, 0.5);
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #eee;
+}
+
+main {
+  text-align: center;
+}
+
+main h2, h3, p {
+  width: 100%;
+  margin: 1% auto 1% auto;
+  font-family:Helvetica, sans-serif;
+  align-self: center;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.copyright {
+  margin-top: 4%;
+  font-size: 40%;
+}
+
+main h2 {
+  margin: 0 auto 0 auto;
+}
+
+main img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main p {
+  width: 60%;
+}
+
+footer ul {
+  /*text-align: center;
+  font-family:Helvetica, sans-serif;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  /*padding: .5% 0 .5% 0;*/
+  /*background-color: rgba(255, 0, 0, 0.5);*/
+  background-color: #444;
+  position: fixed;
+  align-items: center;
+  width: 100%;
+  padding: .5% 0 .625% 0;
+  right: 0;
+  bottom: -2.45%;
+}
+
+
+footer ul li{
+  /*display: inline;
+  width: 100%;
+  margin: 0 auto 0 auto;
+  padding: .25% 1.5% .25% 1.5%;
+  border: 1px solid #ff1122;
+  border-radius: 4px;
+  background-color: rgba(255, 0, 0, 0.5);*/
+
+  display: inline;
+  padding: .25% 1.5% .25% 1.5%;
+  border: 1px solid #ff1122;
+  border-radius: 4px;
+  font-family:Helvetica, sans-serif;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  background-color: rgba(255, 0, 0, 0.5);
+}
